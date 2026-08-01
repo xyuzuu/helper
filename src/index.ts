@@ -735,7 +735,7 @@ export const pixhost = async (i: Buffer | string, filename?: string): Promise<an
 export const eightupload = async (i: Buffer | string, filename?: string): Promise<any> => {
    try {
       if (!Buffer.isBuffer(i) && !util.isUrl(i)) throw new Error('Only buffer and url formats are allowed')
-      const file = Buffer.isBuffer(i) ? i await (await axios.get(i, {
+      const file = Buffer.isBuffer(i) ? i : await (await axios.get(i, {
          responseType: 'arraybuffer'
       })).data
       const parsed = await getExtension(file)

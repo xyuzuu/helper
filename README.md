@@ -3,7 +3,7 @@
 > A collection of upload and shortener functions ready to use.
 
 > [!NOTE] 
-> This is the original code from [@neoxr/helper](https://npmjs.com/@neoxr/helper)
+> Rhe original code from [@neoxr/helper](https://npmjs.com/@neoxr/helper)
 
 <p align="center">
 
